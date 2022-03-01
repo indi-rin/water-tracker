@@ -1,5 +1,5 @@
 import firebase from "firebase/compat/app";
-import { getFirestore, collection } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 
 import "firebase/compat/auth";
 import Constants from "expo-constants";
