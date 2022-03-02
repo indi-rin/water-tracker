@@ -5,6 +5,7 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/index";
 import { Header } from "../components/style";
+import Cup from "../components/Cup";
 
 type todayStack = NativeStackNavigationProp<RootStackParamList, "Today">;
 
@@ -14,8 +15,8 @@ const Today: FC = () => {
     <View>
       <Header>TODAY</Header>
       <Text>This will be the Today screen!</Text>
-      <MaterialCommunityIcons name="cup-outline" size={24} color="black" />
-      <MaterialCommunityIcons name="cup" size={24} color="black" />
+      <Cup />
+      <Cup />
     </View>
   );
 };

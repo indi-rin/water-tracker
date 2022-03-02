@@ -1,5 +1,4 @@
 import styled from "styled-components/native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 export const colors = {
   sapphire: "#05668D",
